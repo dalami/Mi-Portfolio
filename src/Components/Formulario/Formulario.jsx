@@ -1,4 +1,5 @@
 import { useState } from 'react';
+
 import './Formulario.css'
 
 const Formulario = () => {
@@ -6,7 +7,7 @@ const Formulario = () => {
 const[nombre,setNombre]=useState('')
 const[apellido,setApellido]=useState('')
 const[email,setEmail]=useState('')
-const [mostrarContraseña, setMostrarContraseña] = useState(false);
+const[contraseña,setContraseña]=useState('')
 
 const[area,setArea]=useState('')
 
@@ -16,7 +17,9 @@ const handleSubmit = async (e) => {
     const formData = {
         name: nombre,
         email: email,
-        message: area
+        message: area,
+        apellido: apellido,
+        contraseña: contraseña
       };
   
       try {
@@ -29,16 +32,18 @@ const handleSubmit = async (e) => {
         });
   
         if (response.ok) {
-          alert('Message sent!');
+          alert('Mensaje Enviado!');
           setNombre('');
+          setApellido('');
           setEmail('');
           setArea('');
+          setContraseña('');
         } else {
-          alert('Error sending message. Please try again.');
+          alert('Error Intente nuevamente.');
         }
       } catch (error) {
-        console.error('Error:', error);
-        alert('Error sending message. Please try again.');
+        // console.error('Error:', error);
+        alert('Error Intente nuevamente.');
       }
     };
 
@@ -52,14 +57,15 @@ function actualizarApellido(e){
 function actualizarEmail(e){
     setEmail(e.target.value)
 }
+function actualizarContraseña(e){
+    setContraseña(e.target.value)
+}
 
 function actualizarArea(e){
     setArea(e.target.value)
 }
 
-const toggleMostrarContraseña = () => {
-    setMostrarContraseña(!mostrarContraseña);
-  };
+
   
 
     return (
@@ -84,7 +90,7 @@ const toggleMostrarContraseña = () => {
                 </div>
                 <div className='form-group col-md-6'>
                     <label htmlFor=''>Contraseña</label>
-                    <input type='password' name='contraseña' className='form-control'/>
+                    <input type='password' name='contraseña' value={contraseña} onChange={actualizarContraseña} className='form-control'/>
                 </div>
                 </div>
                 <div>
