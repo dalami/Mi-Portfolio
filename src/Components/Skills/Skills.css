@@ -1,0 +1,22 @@
+.progress{
+    margin: 1rem 2rem;
+    height: 0.5rem;
+    
+}
+
+span{
+    font-size: x-small;
+    margin-bottom: 0;
+}
+
+.skills{
+    color: #293DCB;
+}
+
+
+@media screen and (max-width:767px){
+   
+ .estilo-propio{
+   padding-top: 18rem;
+ 
+}

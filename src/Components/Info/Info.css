@@ -1,0 +1,31 @@
+.info-h{
+    margin: 1rem;
+}
+.info-h5{
+    margin: 1rem;
+}
+.info-p{
+    margin: 1rem;
+}
+
+.btn-info{
+    margin: 1rem;
+    width: 8rem;
+    background-color: #293DCB;
+    color: white;
+    border: none;
+}
+
+.borde{
+    border: 12px solid #A9B1EA;
+}
+
+.rectangulo{
+    background-color:#A9B1EA ;
+    width: 7rem;
+    height: 28rem;
+     position: absolute;
+    right: 40rem;
+    
+    z-index: -1;
+    margin-top: 1rem;

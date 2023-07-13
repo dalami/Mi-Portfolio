@@ -1,0 +1,14 @@
+.port-img{
+    width: 100%;
+   
+    border: 1px solid rgb(237, 231, 231);
+    padding: 10px;
+}
+.port-img:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.text-center{
+    color: #293DCB;
+}
