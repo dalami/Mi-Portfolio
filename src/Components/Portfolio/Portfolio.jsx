@@ -1,4 +1,4 @@
-import React from 'react';
+
 import './Portfolio.css'
 import ivyre from '/src/assets/Images/ivyre.png'
 import Homes from '/src/assets/Images/Homes.png'

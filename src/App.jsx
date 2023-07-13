@@ -8,6 +8,7 @@ import Skills from './Components/Skills/Skills'
 import Especializacion from './Components/Especializacion/Especializacion'
 import Servicios from './Components/Servicios/Servicios'
 import Portfolio from './Components/Portfolio/Portfolio'
+import PiePagina from './Components/Formulario/PiePagina'
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
     <Especializacion/>
     <Servicios/>
     <Portfolio/>
+    <PiePagina/>
     </>
   )
 }
