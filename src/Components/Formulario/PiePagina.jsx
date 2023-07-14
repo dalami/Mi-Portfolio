@@ -1,5 +1,6 @@
 import piedepag from "/src/assets/Images/piedepag.jpg";
 import Formulario from './Formulario'
+import './Formulario.css'
 
 
 const PiePagina = () => {
@@ -9,7 +10,7 @@ const PiePagina = () => {
     <div className="container">
       <div className="row justify-content-center">
         <div className="col-md-4">
-          <img src={piedepag} alt="pie de pagina" />
+          <img className="img-pie" src={piedepag} alt="pie de pagina" />
         </div>
         <div className="col-md-4">
             <Formulario/>

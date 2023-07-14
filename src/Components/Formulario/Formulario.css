@@ -1,3 +1,45 @@
 .contenedor{
-    margin-top: 3rem;
+    margin-top: 4rem;
 }
+
+
+.notification {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .success {
+    background-color: #2962FF;
+    color: #ffffff;
+  }
+  
+  .error {
+    background-color: #f44336;
+    color: #ffffff;
+  }
+
+  .eyeButton {
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    outline: none;
+    cursor: pointer;
+    color: #2962FF; 
+  }
+  
+  .eyeButton.active {
+    color: #2962FF; 
+    background-color: transparent;
+  }
+  .form-control{
+    border: none;
+    border-bottom: 1px solid #2962FF;
+    margin: 1rem;
+    line-height: 0.2rem;
+  }
+  
+  

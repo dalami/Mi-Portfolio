@@ -5,7 +5,7 @@ import FotoA from '/src/assets/Images/FotoA.png'
 
 const Hero = () => {
   return (
-    <div className="container miestilo">
+    <div className="container miestilo" >
       <div className="row vh-100 justify-content-center align-items-center">
         <div className="col-sm-5">
           <h6>Hola!</h6>

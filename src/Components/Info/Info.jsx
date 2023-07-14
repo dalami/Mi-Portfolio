@@ -1,4 +1,4 @@
-import React from "react";
+
 import FotoB from '/src/assets/Images/FotoB.png'
 
 import "./Info.css";

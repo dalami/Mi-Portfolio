@@ -1,4 +1,4 @@
-import React from "react";
+
 import { Box} from '@chakra-ui/react'
 import "./Nav.css";
 import Logo from "./Logo";
@@ -6,6 +6,7 @@ import Logo from "./Logo";
 
 const Nav = () => {
    
+  
 
   return (
     <header>
@@ -39,37 +40,37 @@ const Nav = () => {
         <div className="collapse navbar-collapse" id="opciones">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="inicio"  >
                 Inicio
               </a>
             </li>
 
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="info" >
                 Sobre mi
               </a>
             </li>
 
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="habilidades">
                 Habilidades
               </a>
             </li>
 
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="servicios">
                 Servicios
               </a>
             </li>
 
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="portfolio">
                 Portfolio
               </a>
             </li>
 
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="contacto">
                 Contacto
               </a>
             </li>
