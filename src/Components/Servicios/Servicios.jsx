@@ -1,4 +1,4 @@
-import React from 'react';
+
 import './Servicios.css'
 import diseño from '/src/assets/Images/diseño.png'
 import responsive from '/src/assets/Images/responsive.png'
@@ -10,6 +10,7 @@ import video from '/src/assets/Images/video.png'
 
 const Servicios = () => {
     return (
+      <section id='servicios'>
         <div className='container-sm'>
         <div className='text-center p-5'>
         <h1 className='m-5'>Mis <span className='servicios fs-1'>Servicios</span></h1>
@@ -96,6 +97,7 @@ const Servicios = () => {
         </div>
             
         </div>
+        </section>
     );
 }
 

@@ -4,8 +4,14 @@ import FotoB from '/src/assets/Images/FotoB.png'
 import "./Info.css";
 
 const Info = () => {
+
+
+  
+  
   return (
+    <section id='info'>
     <div className="container ">
+    
       <div className="row vh-100 justify-content-center align-items-center miestilo">
         <div className="col-sm-5">
           <img className="borde" src={FotoB}></img>
@@ -28,12 +34,13 @@ const Info = () => {
             persona apasionada de la vida y siempre busco nuevas aventuras y
             oportunidades para crecer tanto personal como profesionalmente.
           </p>
-          <button className="btn-info">Ver Portfolio</button>
+          <button className="btn-info" >Ver Portfolio</button>
         </div>
 
         <div className="rectangulo"></div>
       </div>
     </div>
+    </section>
   );
 };
 

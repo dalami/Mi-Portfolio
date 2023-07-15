@@ -1,8 +1,9 @@
-import React from "react";
+
 import './Skills.css'
 
 const Skills = () => {
   return (
+    <section id="habilidades">
     <div className="container mt-5 estilo-propio">
     <div className="text-center ">
     <h1>Mis <span className="fs-1 skills">Habilidades</span></h1>
@@ -68,6 +69,7 @@ const Skills = () => {
       </div>
       </div>
     </div>
+    </section>
   );
 };
 

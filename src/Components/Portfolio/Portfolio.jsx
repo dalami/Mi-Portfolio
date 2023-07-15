@@ -9,6 +9,7 @@ import rick from '/src/assets/Images/rick.png'
 
 const Portfolio = () => {
     return (
+        <section id='portfolio'>
         <div className='container'>
         <div className='text-center pt-5 mb-5 mt-5' ><h1>Portfolio</h1></div>
         <div className='row justify-content-center'>
@@ -35,6 +36,7 @@ const Portfolio = () => {
 
 
         </div>
+        </section>
     );
 }
 

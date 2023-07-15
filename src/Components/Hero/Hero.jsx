@@ -1,10 +1,11 @@
-import React from "react";
+
 import "./Hero.css";
 import FotoA from '/src/assets/Images/FotoA.png'
 
 
 const Hero = () => {
   return (
+    <section id="inicio">
     <div className="container miestilo" >
       <div className="row vh-100 justify-content-center align-items-center">
         <div className="col-sm-5">
@@ -18,6 +19,7 @@ const Hero = () => {
         </div>
       </div>
     </div>
+    </section>
   );
 };
 

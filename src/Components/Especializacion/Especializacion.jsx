@@ -1,11 +1,11 @@
-import React from 'react';
+import './Especializacion.css'
 
 
 const Especializacion = () => {
     return (
         <div className='container-sm'>
         <div className='text-justify p-5'>
-        <h1 className='m-5'>Especializacion</h1>
+        <h1 className='m-5 esp-h1'>Especializacion</h1>
         <p className='m-5'>Poseo una amplia trayectoria en gestión hotelera y atención al cliente</p>
         </div>
         <div className='row justify-content-center'>
