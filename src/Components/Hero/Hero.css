@@ -2,3 +2,31 @@ img{
     width: 28rem;
 }
 
+.miestilo{
+    margin-top: 3rem;
+}
+
+.mostrar{
+    color: white;
+    background-color: #4C4CF0;
+    width: 8rem;
+    height: 3rem;
+    border-radius: 15px;
+}
+
+.mostrar:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.ocultar{
+    color: white;
+    background-color: #4C4CF0;
+    width: 8rem;
+    height: 3rem;
+    border-radius: 15px;
+}
+.ocultar:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}

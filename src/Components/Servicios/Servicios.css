@@ -2,6 +2,15 @@
     width: 3rem;
 }
 
-.servicios{
+.serv{
     color: #293DCB;
+}
+
+.card{
+    border: none;
+
+}
+
+.card:hover{
+    opacity: 0.6;
 }

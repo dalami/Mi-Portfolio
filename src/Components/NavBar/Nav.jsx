@@ -11,7 +11,7 @@ const Nav = () => {
 
   return (
     <header>
-      <nav className="navbar navbar-expand-sm navbar-light-bg-subtle">
+      <nav className="navbar navbar-expand-sm navbar-light-bg-subtle flex-wrap ">
         <button
           className="navbar-toggler"
           type="button"

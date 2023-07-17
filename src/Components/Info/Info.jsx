@@ -1,12 +1,18 @@
-
+import {useState} from 'React'
 import FotoB from '/src/assets/Images/FotoB.png'
-
+import Portfolio from '../Portfolio/Portfolio'
 import "./Info.css";
 
 const Info = () => {
 
-
+const[verPort,setVerPort]=useState(false)
   
+const irPortfolio=()=>{
+  setVerPort(true);
+}
+const ocultarPort= ()=> {
+  setVerPort(false)
+}
   
   return (
     <section id='info'>
@@ -34,7 +40,10 @@ const Info = () => {
             persona apasionada de la vida y siempre busco nuevas aventuras y
             oportunidades para crecer tanto personal como profesionalmente.
           </p>
-          <button className="btn-info" >Ver Portfolio</button>
+          {!verPort && <button onClick={irPortfolio} className='mostrar'>Ver Portfolio</button>}
+          {verPort && (<div>
+          <button onClick={ocultarPort} className='ocultar'>Ocultar</button>
+          <Portfolio /></div>)}
         </div>
 
         <div className="rectangulo"></div>

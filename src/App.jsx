@@ -13,6 +13,8 @@ import Footer from './Components/Footer/Footer'
 
 
 
+
+
 function App() {
   
 
@@ -23,6 +25,7 @@ function App() {
      <Info />
     <Skills/>
     <Especializacion/>
+   
     <Servicios/>
     <Portfolio/>
     <PiePagina/>

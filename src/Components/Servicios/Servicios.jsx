@@ -13,7 +13,7 @@ const Servicios = () => {
       <section id='servicios'>
         <div className='container-sm'>
         <div className='text-center p-5'>
-        <h1 className='m-5'>Mis <span className='servicios fs-1'>Servicios</span></h1>
+        <h1 className='m-5'>Mis <span className='serv fs-1'>Servicios</span></h1>
         <p className='m-5'>Estos son algunos de mis servicios</p>
         </div>
 

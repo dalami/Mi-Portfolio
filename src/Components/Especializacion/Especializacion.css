@@ -1,3 +1,25 @@
 .esp-h1{
     color: #384BCF;
 }
+
+.especial{
+    background-color: #3347D4;
+    color: white;
+}
+
+
+
+.card {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease; 
+  }
+  
+  .card.active {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  }
+  
+ 
